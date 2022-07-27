@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OperationApplication {
+public class MultiplicationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OperationApplication.class, args);
+		SpringApplication.run(MultiplicationApplication.class, args);
 	}
 }
