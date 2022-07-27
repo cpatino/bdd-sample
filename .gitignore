@@ -24,3 +24,9 @@ hs_err_pid*
 /.idea/*
 /target/*
 /calculator-tester/calculator-tester.iml
+/addition-service/target/*
+/calculator/target/*
+/calculator-tester/target/*
+/division-service/target/*
+/multiplication-service/target/*
+/subtraction-service/target/*
