@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>multiplication-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>addition-service</name>
+	<name>multiplication-service</name>
 	<description>Addition service working in a multi-services implementation</description>
 	<properties>
 		<java.version>17</java.version>
