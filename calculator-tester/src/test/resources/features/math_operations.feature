@@ -11,7 +11,7 @@ Feature: Validate result from math operations (left to right)
       | 1-1          | 0      |
       | 3*2          | 6      |
       | 9/3          | 3      |
-      | 8.0*3/5+2-10 | 3.2    |
+      | 8.0*3/5+2-10 | -3.2   |
       | +5-2*8/4.0   | 6      |
       | 5-2*8/4.0+   | 6      |
 

@@ -16,7 +16,7 @@ public abstract class PatternMatcherMathResolver implements MathResolver {
         LOG.info("A new operation has to be solved: {}", mathOperation);
         var pattern = Pattern.compile(REGEX_PATTERN);
         var result = applyOperation(mathOperation, pattern);
-        return Double.parseDouble(result.replaceAll("[*/+-]", ""));
+        return Double.parseDouble(result.replaceAll("[*/+]", ""));
     }
 
     private String applyOperation(String mathOperation, Pattern pattern) {
